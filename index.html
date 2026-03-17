@@ -24,6 +24,7 @@
       --radius-sm: 16px;
       --max: 1180px;
     }
+    
 
     * {
       margin: 0;
@@ -490,6 +491,161 @@
         padding: 20px;
       }
     }
+
+    @page {
+  size: A4;
+  margin: 12mm;
+}
+
+@media print {
+  html {
+    scroll-behavior: auto;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #111827 !important;
+    font-size: 11pt;
+    line-height: 1.45;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  .navbar,
+  #translateBtn,
+  .hero-actions,
+  script {
+    display: none !important;
+  }
+
+  .container {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+  }
+
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .hero {
+    padding: 0 0 18px 0 !important;
+  }
+
+  section {
+    padding: 10px 0 !important;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .hero-grid,
+  .two-col,
+  .skills-grid,
+  .projects-grid,
+  .mini-grid {
+    grid-template-columns: 1fr !important;
+    gap: 12px !important;
+  }
+
+  .card,
+  .mini-box,
+  .activity-list li,
+  .courses-list li,
+  .plain-list li,
+  .tag,
+  .period {
+    background: #ffffff !important;
+    color: #111827 !important;
+    border: 1px solid #d1d5db !important;
+    box-shadow: none !important;
+  }
+
+  .section-icon,
+  .project-badge,
+  .icon {
+    background: #f3f4f6 !important;
+    color: #111827 !important;
+    border: 1px solid #d1d5db !important;
+  }
+
+  .eyebrow,
+  .timeline-index,
+  .stack {
+    color: #374151 !important;
+  }
+
+  .hero p.lead,
+  .section-header p,
+  .content-card p,
+  .content-card li,
+  .timeline-top .company,
+  .courses-list li,
+  .plain-list li,
+  .footer-inner,
+  .mini-box span {
+    color: #374151 !important;
+  }
+
+  h1, h2, h3, h4, strong, .brand,
+  .contact-item,
+  .period,
+  .tag {
+    color: #111827 !important;
+  }
+
+  a {
+    color: #111827 !important;
+    text-decoration: none !important;
+  }
+
+  footer {
+    margin-top: 14px !important;
+    border-top: none !important;
+  }
+
+  .footer-inner {
+    padding: 12px 0 0 !important;
+    border-top: 1px solid #d1d5db !important;
+  }
+
+  .reveal,
+  .reveal.visible {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  .timeline-card,
+  .project-card,
+  .skill-card,
+  .content-card,
+  .hero-card,
+  .mini-box {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  .content-card,
+  .timeline-card,
+  .hero-card,
+  .skill-card,
+  .project-card {
+    padding: 16px !important;
+  }
+
+  .activity-list,
+  .courses-list,
+  .plain-list,
+  .tags {
+    gap: 8px !important;
+  }
+
+  .tag {
+    padding: 6px 10px !important;
+    font-size: 9pt !important;
+  }
+}
   </style>
 </head>
 <body>
@@ -772,7 +928,6 @@
   <footer>
     <div class="container footer-inner">
       <p data-translate="footer_left">© 2026 Henrique Grigoli da Rosa</p>
-      <p data-translate="footer_right">Currículo em formato de página, inspirado em um portfólio profissional moderno.</p>
     </div>
   </footer>
 
@@ -870,7 +1025,6 @@
         project_3_desc: "Elaboração, organização e estruturação da documentação técnica do projeto em desenvolvimento.",
 
         footer_left: "© 2026 Henrique Grigoli da Rosa",
-        footer_right: "Currículo em formato de página, inspirado em um portfólio profissional moderno."
       },
 
       en: {
@@ -955,7 +1109,7 @@
         project_3_desc: "Preparation, organization and structuring of technical documentation for the project under development.",
 
         footer_left: "© 2026 Henrique Grigoli da Rosa",
-        footer_right: "Resume page inspired by a modern professional portfolio."
+
       }
     };
 
