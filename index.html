@@ -497,12 +497,13 @@
     <div class="container nav-inner">
       <a class="brand" href="#inicio">HENRIQUE GRIGOLI</a>
       <nav class="nav-links">
-        <a href="#objetivo">Objetivo</a>
-        <a href="#perfil">Perfil</a>
-        <a href="#experiencia">Experiência</a>
-        <a href="#formacao">Formação</a>
-        <a href="#habilidades">Habilidades</a>
-        <a href="#projetos">Projetos</a>
+        <a href="#objetivo" data-translate="nav_objetivo">Objetivo</a>
+        <a href="#perfil" data-translate="nav_perfil">Perfil</a>
+        <a href="#experiencia" data-translate="nav_experiencia">Experiência</a>
+        <a href="#formacao" data-translate="nav_formacao">Formação</a>
+        <a href="#habilidades" data-translate="nav_habilidades">Habilidades</a>
+        <a href="#projetos" data-translate="nav_projetos">Projetos</a>
+        <button class="btn btn-secondary" id="translateBtn">EN</button>
       </nav>
     </div>
   </header>
@@ -511,23 +512,23 @@
     <section class="hero reveal">
       <div class="hero-grid">
         <div>
-          <span class="eyebrow">Currículo Profissional</span>
-          <h1>Henrique Grigoli da Rosa</h1>
-          <p class="lead">
+          <span class="eyebrow" data-translate="hero_eyebrow">Currículo Profissional</span>
+          <h1 data-translate="hero_name">Henrique Grigoli da Rosa</h1>
+          <p class="lead" data-translate="hero_text">
             Estudante de Sistemas de Informação com experiência em ambiente corporativo de TI,
             atuando com apoio a projetos, documentação, organização de processos e controle de demandas.
             Interesse especial em tecnologia, melhoria contínua e análise de dados.
           </p>
 
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#experiencia">Ver experiência</a>
-            <a class="btn btn-secondary" href="https://www.linkedin.com/in/henrique-grigoli-da-rosa-b19384257/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="btn btn-primary" href="#experiencia" data-translate="hero_btn_experience">Ver experiência</a>
+            <a class="btn btn-secondary" href="https://www.linkedin.com/in/henrique-grigoli-da-rosa-b19384257/" target="_blank" rel="noopener noreferrer" data-translate="hero_btn_linkedin">LinkedIn</a>
           </div>
         </div>
 
         <aside class="card hero-card reveal">
           <div class="contact-list">
-            <div class="contact-item"><span class="icon">📍</span><span>Curitiba – PR</span></div>
+            <div class="contact-item"><span class="icon">📍</span><span data-translate="contact_location">Curitiba – PR</span></div>
             <div class="contact-item"><span class="icon">📞</span><span>(41) 99949-8680</span></div>
             <div class="contact-item"><span class="icon">✉️</span><span>grigoli.henrique@gmail.com</span></div>
             <div class="contact-item"><span class="icon">🔗</span><a href="https://www.linkedin.com/in/henrique-grigoli-da-rosa-b19384257/" target="_blank" rel="noopener noreferrer">linkedin.com/in/henrique-grigoli-da-rosa-b19384257</a></div>
@@ -535,12 +536,12 @@
 
           <div class="mini-grid">
             <div class="mini-box">
-              <span>Formação</span>
-              <strong>BSI – PUCPR</strong>
+              <span data-translate="mini_education_label">Formação</span>
+              <strong data-translate="mini_education_value">BSI – PUCPR</strong>
             </div>
             <div class="mini-box">
-              <span>Idioma</span>
-              <strong>Inglês Avançado</strong>
+              <span data-translate="mini_language_label">Idioma</span>
+              <strong data-translate="mini_language_value">Inglês Avançado</strong>
             </div>
           </div>
         </aside>
@@ -551,13 +552,13 @@
       <div class="section-header">
         <div class="section-icon">🎯</div>
         <div>
-          <h2>Objetivo Profissional</h2>
-          <p>Direcionamento de carreira e área de atuação desejada.</p>
+          <h2 data-translate="objective_title">Objetivo Profissional</h2>
+          <p data-translate="objective_desc">Direcionamento de carreira e área de atuação desejada.</p>
         </div>
       </div>
 
       <div class="card content-card">
-        <p>
+        <p data-translate="objective_text">
           Atuar na área de Tecnologia da Informação, contribuindo com suporte a projetos,
           organização de processos, documentação, controle de demandas e desenvolvimento de soluções,
           aplicando conhecimentos técnicos e organizacionais em ambiente corporativo, com interesse em ampliar
@@ -570,13 +571,13 @@
       <div class="section-header">
         <div class="section-icon">👤</div>
         <div>
-          <h2>Perfil Profissional</h2>
-          <p>Visão geral do perfil para recrutadores e gestores.</p>
+          <h2 data-translate="profile_title">Perfil Profissional</h2>
+          <p data-translate="profile_desc">Visão geral do perfil para recrutadores e gestores.</p>
         </div>
       </div>
 
       <div class="card content-card">
-        <p>
+        <p data-translate="profile_text">
           Estudante de Sistemas de Informação, com experiência em ambiente corporativo de TI,
           atuando no apoio a projetos, documentação, acompanhamento de demandas e padronização de processos.
           Perfil organizado, analítico, colaborativo e comprometido com aprendizado contínuo,
@@ -589,8 +590,8 @@
       <div class="section-header">
         <div class="section-icon">💼</div>
         <div>
-          <h2>Experiência Profissional</h2>
-          <p>Linha do tempo com foco em atividades, responsabilidade e contexto de atuação.</p>
+          <h2 data-translate="experience_title">Experiência Profissional</h2>
+          <p data-translate="experience_desc">Linha do tempo com foco em atividades, responsabilidade e contexto de atuação.</p>
         </div>
       </div>
 
@@ -598,18 +599,18 @@
         <div class="timeline-top">
           <div>
             <div class="timeline-index">01</div>
-            <h3>Estagiário – GPS (Gerência de Pessoas e Serviços)</h3>
-            <div class="company">CELEPAR – Companhia de Tecnologia da Informação e Comunicação do Paraná</div>
+            <h3 data-translate="job_title">Estagiário – GPS (Gerência de Pessoas e Serviços)</h3>
+            <div class="company" data-translate="job_company">CELEPAR – Companhia de Tecnologia da Informação e Comunicação do Paraná</div>
           </div>
-          <div class="period">Jun/2025 – Atual</div>
+          <div class="period" data-translate="job_period">Jun/2025 – Atual</div>
         </div>
 
         <ul class="activity-list">
-          <li>Apoio no acompanhamento de projetos internos de TI.</li>
-          <li>Participação em reuniões de planejamento, alinhamento e retrospectivas.</li>
-          <li>Elaboração de atas, relatórios, cronogramas, controles e documentações de apoio.</li>
-          <li>Suporte à padronização de processos e ao controle de demandas.</li>
-          <li>Contato com metodologias ágeis e ferramentas colaborativas, com atuação próxima a Scrum e Kanban.</li>
+          <li data-translate="exp_item_1">Apoio no acompanhamento de projetos internos de TI.</li>
+          <li data-translate="exp_item_2">Participação em reuniões de planejamento, alinhamento e retrospectivas.</li>
+          <li data-translate="exp_item_3">Elaboração de atas, relatórios, cronogramas, controles e documentações de apoio.</li>
+          <li data-translate="exp_item_4">Suporte à padronização de processos e ao controle de demandas.</li>
+          <li data-translate="exp_item_5">Contato com metodologias ágeis e ferramentas colaborativas, com atuação próxima a Scrum e Kanban.</li>
         </ul>
       </article>
     </section>
@@ -620,20 +621,20 @@
           <div class="section-header">
             <div class="section-icon">🎓</div>
             <div>
-              <h2>Formação Acadêmica</h2>
-              <p>Base educacional e momento atual da graduação.</p>
+              <h2 data-translate="education_title">Formação Acadêmica</h2>
+              <p data-translate="education_desc">Base educacional e momento atual da graduação.</p>
             </div>
           </div>
 
           <div class="card content-card">
             <div style="margin-bottom: 22px;">
-              <h3 style="margin-bottom: 8px;">Pontifícia Universidade Católica do Paraná – PUCPR</h3>
-              <p>Bacharelado em Sistemas de Informação – 7º período</p>
-              <p style="margin-top: 6px;">Previsão de conclusão: 2026</p>
+              <h3 style="margin-bottom: 8px;" data-translate="education_uni">Pontifícia Universidade Católica do Paraná – PUCPR</h3>
+              <p data-translate="education_course">Bacharelado em Sistemas de Informação – 7º período</p>
+              <p style="margin-top: 6px;" data-translate="education_grad">Previsão de conclusão: 2026</p>
             </div>
             <div>
-              <h3 style="margin-bottom: 8px;">ESIC Business & Marketing School</h3>
-              <p>Ensino Médio Completo</p>
+              <h3 style="margin-bottom: 8px;" data-translate="education_school">ESIC Business & Marketing School</h3>
+              <p data-translate="education_school_desc">Ensino Médio Completo</p>
             </div>
           </div>
         </div>
@@ -642,22 +643,22 @@
           <div class="section-header">
             <div class="section-icon">🌍</div>
             <div>
-              <h2>Idiomas & Cursos</h2>
-              <p>Complementos que reforçam a formação técnica e profissional.</p>
+              <h2 data-translate="languages_courses_title">Idiomas & Cursos</h2>
+              <p data-translate="languages_courses_desc">Complementos que reforçam a formação técnica e profissional.</p>
             </div>
           </div>
 
           <div class="card content-card">
-            <h3>Idiomas</h3>
-            <p style="margin-top: 8px;">Inglês: Avançado (TOEFL ITP)</p>
+            <h3 data-translate="languages_title">Idiomas</h3>
+            <p style="margin-top: 8px;" data-translate="languages_text">Inglês: Avançado (TOEFL ITP)</p>
 
-            <h3 style="margin-top: 26px;">Cursos Complementares</h3>
+            <h3 style="margin-top: 26px;" data-translate="courses_title">Cursos Complementares</h3>
             <ul class="courses-list">
-              <li>Gestão Ágil: Explorando Conceitos da Agilidade – Alura</li>
-              <li>Product Management: Agilize o Desenvolvimento de Produtos – Alura</li>
-              <li>Métricas Ágeis: Como Medir Resultados em um Ambiente Ágil – Alura</li>
-              <li>Contagem de Pontos de Função – Universidade Corporativa CELEPAR</li>
-              <li>Excel Intermediário – Udemy</li>
+              <li data-translate="course_1">Gestão Ágil: Explorando Conceitos da Agilidade – Alura</li>
+              <li data-translate="course_2">Product Management: Agilize o Desenvolvimento de Produtos – Alura</li>
+              <li data-translate="course_3">Métricas Ágeis: Como Medir Resultados em um Ambiente Ágil – Alura</li>
+              <li data-translate="course_4">Contagem de Pontos de Função – Universidade Corporativa CELEPAR</li>
+              <li data-translate="course_5">Excel Intermediário – Udemy</li>
             </ul>
           </div>
         </div>
@@ -668,14 +669,14 @@
       <div class="section-header">
         <div class="section-icon">🛠️</div>
         <div>
-          <h2>Habilidades e Conhecimentos Técnicos</h2>
-          <p>Resumo visual do repertório técnico e comportamental.</p>
+          <h2 data-translate="skills_title">Habilidades e Conhecimentos Técnicos</h2>
+          <p data-translate="skills_desc">Resumo visual do repertório técnico e comportamental.</p>
         </div>
       </div>
 
       <div class="skills-grid">
         <div class="card skill-card">
-          <h3>Linguagens</h3>
+          <h3 data-translate="skills_languages_title">Linguagens</h3>
           <div class="tags">
             <span class="tag">Python</span>
             <span class="tag">Java</span>
@@ -687,7 +688,7 @@
         </div>
 
         <div class="card skill-card">
-          <h3>Tecnologias</h3>
+          <h3 data-translate="skills_technologies_title">Tecnologias</h3>
           <div class="tags">
             <span class="tag">Angular</span>
             <span class="tag">Power BI</span>
@@ -699,7 +700,7 @@
         </div>
 
         <div class="card skill-card">
-          <h3>Ferramentas</h3>
+          <h3 data-translate="skills_tools_title">Ferramentas</h3>
           <div class="tags">
             <span class="tag">Excel</span>
             <span class="tag">Trello</span>
@@ -709,14 +710,14 @@
         </div>
 
         <div class="card skill-card">
-          <h3>Competências</h3>
+          <h3 data-translate="skills_soft_title">Competências</h3>
           <div class="tags">
-            <span class="tag">Organização</span>
-            <span class="tag">Documentação</span>
-            <span class="tag">Pensamento analítico</span>
-            <span class="tag">Comunicação</span>
-            <span class="tag">Adaptabilidade</span>
-            <span class="tag">Aprendizado rápido</span>
+            <span class="tag" data-translate="soft_1">Organização</span>
+            <span class="tag" data-translate="soft_2">Documentação</span>
+            <span class="tag" data-translate="soft_3">Pensamento analítico</span>
+            <span class="tag" data-translate="soft_4">Comunicação</span>
+            <span class="tag" data-translate="soft_5">Adaptabilidade</span>
+            <span class="tag" data-translate="soft_6">Aprendizado rápido</span>
           </div>
         </div>
       </div>
@@ -726,8 +727,8 @@
       <div class="section-header">
         <div class="section-icon">📁</div>
         <div>
-          <h2>Projetos</h2>
-          <p>Aplicações e entregas que demonstram prática técnica e organização.</p>
+          <h2 data-translate="projects_title">Projetos</h2>
+          <p data-translate="projects_desc">Aplicações e entregas que demonstram prática técnica e organização.</p>
         </div>
       </div>
 
@@ -736,33 +737,33 @@
           <div class="project-top">
             <div class="project-badge">01</div>
             <div>
-              <h3>Sistema de Vendas de Ingressos</h3>
+              <h3 data-translate="project_1_title">Sistema de Vendas de Ingressos</h3>
               <div class="stack">Java Swing</div>
             </div>
           </div>
-          <p>Aplicação com operações de cadastro, edição, exclusão e consulta de registros, focada em estruturação lógica e interface desktop.</p>
+          <p data-translate="project_1_desc">Aplicação com operações de cadastro, edição, exclusão e consulta de registros, focada em estruturação lógica e interface desktop.</p>
         </article>
 
         <article class="card project-card">
           <div class="project-top">
             <div class="project-badge">02</div>
             <div>
-              <h3>Contador de Moedas em Python</h3>
+              <h3 data-translate="project_2_title">Contador de Moedas em Python</h3>
               <div class="stack">Python</div>
             </div>
           </div>
-          <p>Projeto voltado à lógica de programação e manipulação de dados de entrada, com foco em resolução prática de problemas.</p>
+          <p data-translate="project_2_desc">Projeto voltado à lógica de programação e manipulação de dados de entrada, com foco em resolução prática de problemas.</p>
         </article>
 
         <article class="card project-card">
           <div class="project-top">
             <div class="project-badge">03</div>
             <div>
-              <h3>Documentação do TCC</h3>
-              <div class="stack">Documentação técnica</div>
+              <h3 data-translate="project_3_title">Documentação do TCC</h3>
+              <div class="stack" data-translate="project_3_stack">Documentação técnica</div>
             </div>
           </div>
-          <p>Elaboração, organização e estruturação da documentação técnica do projeto em desenvolvimento.</p>
+          <p data-translate="project_3_desc">Elaboração, organização e estruturação da documentação técnica do projeto em desenvolvimento.</p>
         </article>
       </div>
     </section>
@@ -770,8 +771,8 @@
 
   <footer>
     <div class="container footer-inner">
-      <p>© 2026 Henrique Grigoli da Rosa</p>
-      <p>Currículo em formato de página, inspirado em um portfólio profissional moderno.</p>
+      <p data-translate="footer_left">© 2026 Henrique Grigoli da Rosa</p>
+      <p data-translate="footer_right">Currículo em formato de página, inspirado em um portfólio profissional moderno.</p>
     </div>
   </footer>
 
@@ -785,6 +786,199 @@
     }, { threshold: 0.12 });
 
     document.querySelectorAll('.reveal').forEach((el) => observer.observe(el));
+
+    const translations = {
+      pt: {
+        nav_objetivo: "Objetivo",
+        nav_perfil: "Perfil",
+        nav_experiencia: "Experiência",
+        nav_formacao: "Formação",
+        nav_habilidades: "Habilidades",
+        nav_projetos: "Projetos",
+
+        hero_eyebrow: "Currículo Profissional",
+        hero_name: "Henrique Grigoli da Rosa",
+        hero_text: "Estudante de Sistemas de Informação com experiência em ambiente corporativo de TI, atuando com apoio a projetos, documentação, organização de processos e controle de demandas. Interesse especial em tecnologia, melhoria contínua e análise de dados.",
+        hero_btn_experience: "Ver experiência",
+        hero_btn_linkedin: "LinkedIn",
+
+        contact_location: "Curitiba – PR",
+        mini_education_label: "Formação",
+        mini_education_value: "BSI – PUCPR",
+        mini_language_label: "Idioma",
+        mini_language_value: "Inglês Avançado",
+
+        objective_title: "Objetivo Profissional",
+        objective_desc: "Direcionamento de carreira e área de atuação desejada.",
+        objective_text: "Atuar na área de Tecnologia da Informação, contribuindo com suporte a projetos, organização de processos, documentação, controle de demandas e desenvolvimento de soluções, aplicando conhecimentos técnicos e organizacionais em ambiente corporativo, com interesse em ampliar conhecimentos também em análise de dados.",
+
+        profile_title: "Perfil Profissional",
+        profile_desc: "Visão geral do perfil para recrutadores e gestores.",
+        profile_text: "Estudante de Sistemas de Informação, com experiência em ambiente corporativo de TI, atuando no apoio a projetos, documentação, acompanhamento de demandas e padronização de processos. Perfil organizado, analítico, colaborativo e comprometido com aprendizado contínuo, melhoria de processos e desenvolvimento profissional.",
+
+        experience_title: "Experiência Profissional",
+        experience_desc: "Linha do tempo com foco em atividades, responsabilidade e contexto de atuação.",
+        job_title: "Estagiário – GPS (Gerência de Pessoas e Serviços)",
+        job_company: "CELEPAR – Companhia de Tecnologia da Informação e Comunicação do Paraná",
+        job_period: "Jun/2025 – Atual",
+        exp_item_1: "Apoio no acompanhamento de projetos internos de TI.",
+        exp_item_2: "Participação em reuniões de planejamento, alinhamento e retrospectivas.",
+        exp_item_3: "Elaboração de atas, relatórios, cronogramas, controles e documentações de apoio.",
+        exp_item_4: "Suporte à padronização de processos e ao controle de demandas.",
+        exp_item_5: "Contato com metodologias ágeis e ferramentas colaborativas, com atuação próxima a Scrum e Kanban.",
+
+        education_title: "Formação Acadêmica",
+        education_desc: "Base educacional e momento atual da graduação.",
+        education_uni: "Pontifícia Universidade Católica do Paraná – PUCPR",
+        education_course: "Bacharelado em Sistemas de Informação – 7º período",
+        education_grad: "Previsão de conclusão: 2026",
+        education_school: "ESIC Business & Marketing School",
+        education_school_desc: "Ensino Médio Completo",
+
+        languages_courses_title: "Idiomas & Cursos",
+        languages_courses_desc: "Complementos que reforçam a formação técnica e profissional.",
+        languages_title: "Idiomas",
+        languages_text: "Inglês: Avançado (TOEFL ITP)",
+        courses_title: "Cursos Complementares",
+        course_1: "Gestão Ágil: Explorando Conceitos da Agilidade – Alura",
+        course_2: "Product Management: Agilize o Desenvolvimento de Produtos – Alura",
+        course_3: "Métricas Ágeis: Como Medir Resultados em um Ambiente Ágil – Alura",
+        course_4: "Contagem de Pontos de Função – Universidade Corporativa CELEPAR",
+        course_5: "Excel Intermediário – Udemy",
+
+        skills_title: "Habilidades e Conhecimentos Técnicos",
+        skills_desc: "Resumo visual do repertório técnico e comportamental.",
+        skills_languages_title: "Linguagens",
+        skills_technologies_title: "Tecnologias",
+        skills_tools_title: "Ferramentas",
+        skills_soft_title: "Competências",
+        soft_1: "Organização",
+        soft_2: "Documentação",
+        soft_3: "Pensamento analítico",
+        soft_4: "Comunicação",
+        soft_5: "Adaptabilidade",
+        soft_6: "Aprendizado rápido",
+
+        projects_title: "Projetos",
+        projects_desc: "Aplicações e entregas que demonstram prática técnica e organização.",
+        project_1_title: "Sistema de Vendas de Ingressos",
+        project_1_desc: "Aplicação com operações de cadastro, edição, exclusão e consulta de registros, focada em estruturação lógica e interface desktop.",
+        project_2_title: "Contador de Moedas em Python",
+        project_2_desc: "Projeto voltado à lógica de programação e manipulação de dados de entrada, com foco em resolução prática de problemas.",
+        project_3_title: "Documentação do TCC",
+        project_3_stack: "Documentação técnica",
+        project_3_desc: "Elaboração, organização e estruturação da documentação técnica do projeto em desenvolvimento.",
+
+        footer_left: "© 2026 Henrique Grigoli da Rosa",
+        footer_right: "Currículo em formato de página, inspirado em um portfólio profissional moderno."
+      },
+
+      en: {
+        nav_objetivo: "Objective",
+        nav_perfil: "Profile",
+        nav_experiencia: "Experience",
+        nav_formacao: "Education",
+        nav_habilidades: "Skills",
+        nav_projetos: "Projects",
+
+        hero_eyebrow: "Professional Resume",
+        hero_name: "Henrique Grigoli da Rosa",
+        hero_text: "Information Systems student with experience in corporate IT environments, working with project support, documentation, process organization and demand control. Strong interest in technology, continuous improvement and data analysis.",
+        hero_btn_experience: "View Experience",
+        hero_btn_linkedin: "LinkedIn",
+
+        contact_location: "Curitiba – Brazil",
+        mini_education_label: "Education",
+        mini_education_value: "Information Systems – PUCPR",
+        mini_language_label: "Language",
+        mini_language_value: "Advanced English",
+
+        objective_title: "Professional Objective",
+        objective_desc: "Career direction and desired field of work.",
+        objective_text: "Work in the Information Technology field, contributing with project support, process organization, documentation, demand control and solution development, applying technical and organizational knowledge in a corporate environment, while also expanding my skills in data analysis.",
+
+        profile_title: "Professional Profile",
+        profile_desc: "General overview for recruiters and managers.",
+        profile_text: "Information Systems student with experience in corporate IT environments, supporting projects, documentation, demand tracking and process standardization. Organized, analytical, collaborative and committed to continuous learning, process improvement and professional development.",
+
+        experience_title: "Professional Experience",
+        experience_desc: "Timeline focused on activities, responsibilities and work context.",
+        job_title: "Intern – GPS (People and Services Management)",
+        job_company: "CELEPAR – Paraná State Information and Communication Technology Company",
+        job_period: "Jun/2025 – Present",
+        exp_item_1: "Support in monitoring internal IT projects.",
+        exp_item_2: "Participation in planning, alignment and retrospective meetings.",
+        exp_item_3: "Preparation of meeting minutes, reports, schedules, controls and supporting documentation.",
+        exp_item_4: "Support for process standardization and demand control.",
+        exp_item_5: "Experience with agile methodologies and collaborative tools, working closely with Scrum and Kanban.",
+
+        education_title: "Academic Education",
+        education_desc: "Educational background and current stage of graduation.",
+        education_uni: "Pontifical Catholic University of Paraná – PUCPR",
+        education_course: "Bachelor's Degree in Information Systems – 7th semester",
+        education_grad: "Expected graduation: 2026",
+        education_school: "ESIC Business & Marketing School",
+        education_school_desc: "High School Diploma",
+
+        languages_courses_title: "Languages & Courses",
+        languages_courses_desc: "Additional qualifications that strengthen technical and professional background.",
+        languages_title: "Languages",
+        languages_text: "English: Advanced (TOEFL ITP)",
+        courses_title: "Additional Courses",
+        course_1: "Agile Management: Exploring Agility Concepts – Alura",
+        course_2: "Product Management: Accelerating Product Development – Alura",
+        course_3: "Agile Metrics: Measuring Results in an Agile Environment – Alura",
+        course_4: "Function Point Analysis – CELEPAR Corporate University",
+        course_5: "Intermediate Excel – Udemy",
+
+        skills_title: "Skills and Technical Knowledge",
+        skills_desc: "Visual summary of technical and behavioral skills.",
+        skills_languages_title: "Languages",
+        skills_technologies_title: "Technologies",
+        skills_tools_title: "Tools",
+        skills_soft_title: "Soft Skills",
+        soft_1: "Organization",
+        soft_2: "Documentation",
+        soft_3: "Analytical thinking",
+        soft_4: "Communication",
+        soft_5: "Adaptability",
+        soft_6: "Fast learning",
+
+        projects_title: "Projects",
+        projects_desc: "Applications and deliverables that demonstrate technical practice and organization.",
+        project_1_title: "Ticket Sales System",
+        project_1_desc: "Application with create, edit, delete and record query operations, focused on logical structuring and desktop interface.",
+        project_2_title: "Coin Counter in Python",
+        project_2_desc: "Project focused on programming logic and input data manipulation, aimed at practical problem solving.",
+        project_3_title: "Final Paper Documentation",
+        project_3_stack: "Technical documentation",
+        project_3_desc: "Preparation, organization and structuring of technical documentation for the project under development.",
+
+        footer_left: "© 2026 Henrique Grigoli da Rosa",
+        footer_right: "Resume page inspired by a modern professional portfolio."
+      }
+    };
+
+    let currentLang = "pt";
+
+    function translatePage() {
+      document.querySelectorAll("[data-translate]").forEach((el) => {
+        const key = el.getAttribute("data-translate");
+        if (translations[currentLang][key]) {
+          el.innerHTML = translations[currentLang][key];
+        }
+      });
+
+      document.documentElement.lang = currentLang === "pt" ? "pt-BR" : "en";
+      document.getElementById("translateBtn").textContent = currentLang === "pt" ? "EN" : "PT";
+    }
+
+    document.getElementById("translateBtn").addEventListener("click", () => {
+      currentLang = currentLang === "pt" ? "en" : "pt";
+      translatePage();
+    });
+
+    translatePage();
   </script>
 </body>
 </html>
